@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6946218e-7e8e-4854-943f-794c3481b499" name="Default Changelist" comment="" />
+    <list default="true" id="6946218e-7e8e-4854-943f-794c3481b499" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/tp1/PointOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tp1/PointOperator.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1WR2TRF9nkDe2oyzs7caYuM0c8c" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -15,6 +21,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager">
@@ -88,11 +95,11 @@
     </state>
     <state x="0" y="4" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1579131068603" />
     <state x="0" y="5" key="SettingsEditor/0.0.1463.823@0.0.1463.823" timestamp="1579657890413" />
-    <state x="18" y="213" key="com.intellij.ide.util.TipDialog" timestamp="1579717571729">
+    <state x="18" y="213" key="com.intellij.ide.util.TipDialog" timestamp="1579720310304">
       <screen x="0" y="0" width="1463" height="823" />
     </state>
     <state x="16" y="186" key="com.intellij.ide.util.TipDialog/0.0.1280.720@0.0.1280.720" timestamp="1579125002272" />
-    <state x="18" y="213" key="com.intellij.ide.util.TipDialog/0.0.1463.823@0.0.1463.823" timestamp="1579717571729" />
+    <state x="18" y="213" key="com.intellij.ide.util.TipDialog/0.0.1463.823@0.0.1463.823" timestamp="1579720310304" />
     <state x="389" y="187" key="run.anything.popup" timestamp="1579630766495">
       <screen x="0" y="0" width="1463" height="823" />
     </state>

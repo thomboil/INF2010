@@ -15,7 +15,7 @@ public final class PointOperator {
 
         return vector;
     }
-
+    //test git que juste java marche
     // TODO appliquer la rotation sur le vecteur d'entree.
     public static Double[] rotate(Double[] vector, Double[][] rotationMatrix) {
 
