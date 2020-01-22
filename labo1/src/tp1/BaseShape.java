@@ -11,11 +11,17 @@ public class BaseShape {
     // TODO Initialiser les points.
     public BaseShape() {
         // ...
+        this.coords = new HashSet<Point2d>();
     }
 
     // TODO prendre une liste de points et creer une nouvelle forme.
     public BaseShape(Collection<Point2d> coords) {
         // ...
+        this.coords = new HashSet<Point2d>();
+        for(Point2d pt: coords)
+        {
+            this.coords.add(pt);
+        }
     }
 
     // TODO ajouter ou retirer des coordonnees a la liste de points.

@@ -11,7 +11,7 @@ public class Point2d extends AbstractPoint {
 
         super(new Double[]{x,y});
     }
-
+    //okok
     // TODO creer un point a partir d'un vecteur de donnees
     public Point2d(Double[] vector) {
         super(new Double[]{vector[0], vector[1]});
@@ -73,7 +73,7 @@ public class Point2d extends AbstractPoint {
     // TODO creer un nouveau point.
     @Override
     public Point2d clone() {
-        Point2d pointClone = new Point2d(this.X, this.Y);
-        return this;
+        Point2d pointClone = new Point2d(this.vector);
+        return pointClone;
     }
 }

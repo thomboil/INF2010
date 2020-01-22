@@ -15,7 +15,7 @@ public final class PointOperator {
 
         return vector;
     }
-    //test git que juste java marche
+
     // TODO appliquer la rotation sur le vecteur d'entree.
     public static Double[] rotate(Double[] vector, Double[][] rotationMatrix) {
 
@@ -33,7 +33,7 @@ public final class PointOperator {
         }
         return vectorResultant;
     }
-
+   //un autre test
     // TODO appliquer le facteur de division sur le vecteur d'entree.
     public static Double[] divide(Double[] vector, Double divider) {
         for(int i = 0 ; i<vector.length; i++)

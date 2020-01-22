@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6946218e-7e8e-4854-943f-794c3481b499" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tp1/BaseShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tp1/BaseShape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tp1/Point2d.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tp1/Point2d.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tp1/PointOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tp1/PointOperator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
