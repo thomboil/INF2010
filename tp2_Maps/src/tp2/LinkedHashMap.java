@@ -50,11 +50,33 @@ public class LinkedHashMap<KeyType, DataType> {
                 if(map[i]!= null){
                     currentNode = map[i];
                     index = getIndex(currentNode.key);
-                    newMap[index] = currentNode;
+
+                    //Placer les nodes maintenant
+                    if (newMap[index] == null) {
+                        newMap[index] = currentNode;
+                    }else{
+                        //Tant que cest pas la fin, si cest la fin place le truc au next (a la place de null)
+                        do{
+                            if(newMap[index].next == null)
+                            {
+                                newMap[index].next = currentNode;
+                            }
+
+                        }while (newMap[index].next != null);
+                    }
                 }
             } while (map[i].next != null);
         }
         //on doit rehash pcq la taille du tableau change et placer a cet nouvel indice dans le new tableau double cap
+        map = new Node[capacity];
+
+        for (int i = 0; i< newMap.length; i++)
+        {
+            map[i] = newMap[i];
+            while (newMap[i].next != null){
+                map[i].next = newMap[i].next;
+            }
+        }
 
     }
 
@@ -134,6 +156,12 @@ public class LinkedHashMap<KeyType, DataType> {
             map[index] = new Node<KeyType, DataType>(key, value);
             size ++;
         }
+
+//        if(shouldRehash())
+//        {
+//            rehash();
+//        }
+
         return data;
     }
 
