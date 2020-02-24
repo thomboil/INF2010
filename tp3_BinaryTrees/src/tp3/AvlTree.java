@@ -94,6 +94,22 @@ public class AvlTree<ValueType extends Comparable<? super ValueType> > {
      * @return if parent node should balance
      */
     private boolean insert (ValueType value, BinaryNode<ValueType> currentNode){
+
+
+        if(value <= currentNode.value){
+            if(currentNode.left.value == null){
+                currentNode.left = new Node(value, currentNode);
+            }else{
+                insert(value, currentNode.left);
+            }
+        }else if(value >= currentNode.value){
+            if(currentNode.left.value == null){
+                currentNode.right = new Node(value, currentNode);
+            }else {
+                insert(value, currentNode.right);
+            }
+        }
+
         return false;
     }
 
@@ -113,6 +129,9 @@ public class AvlTree<ValueType extends Comparable<? super ValueType> > {
      * @param subTree SubTree currently being accessed to verify if it respects the AVL balancing rule
      */
     private void balance(BinaryNode<ValueType> subTree) {
+        if(subTree == null) return 0;
+        int h1
+
     }
 
     /** TODO O( 1 )
@@ -120,6 +139,7 @@ public class AvlTree<ValueType extends Comparable<? super ValueType> > {
      * @param node1 Node to become child of its left child
      */
     private void rotateLeft(BinaryNode<ValueType> node1){
+
     }
 
     /** TODO O( 1 )
@@ -127,6 +147,10 @@ public class AvlTree<ValueType extends Comparable<? super ValueType> > {
      * @param node1 Node to become child of its right child
      */
     private void rotateRight(BinaryNode<ValueType> node1){
+        BinaryNode<ValueType> node2;
+        node2 = node1.left;
+        node1.left = node2.right;
+        node2.right = node1;
     }
 
     /** TODO O( 1 )
