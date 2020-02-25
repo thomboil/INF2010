@@ -238,7 +238,7 @@ public class AvlTreeTester {
 
         tree.insert(3);
 
-        //tree.remove(6);
+        tree.remove(6);
 
         boolean isBalanced = tree.getHeight() == 2;
 
